@@ -17,7 +17,6 @@ const posbtn = document.querySelector("#posbtn");
 const negbtn = document.querySelector("#negbtn");
 const resbtn = document.querySelector("#reset");
 
-
 function display() {
     counterState.innerHTML = counter.count;
     bstnum.innerHTML = counter.best;
@@ -42,9 +41,6 @@ posbtn.addEventListener("click", () => {
     display();
 })
 
-
-
-
 negbtn.addEventListener("click", () => {
 
     if (counter.count > 0){
@@ -54,7 +50,6 @@ negbtn.addEventListener("click", () => {
         save();
         display();
     }
-
 
 });
 
