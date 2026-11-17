@@ -13,7 +13,6 @@ let counter = JSON.parse (localStorage.getItem("counter"));
 const counterState = document.getElementById("counter");
 const time = document.getElementById("time");
 const bstnum = document.getElementById("num");
-
 const posbtn = document.querySelector("#posbtn");
 const negbtn = document.querySelector("#negbtn");
 const resbtn = document.querySelector("#reset");
