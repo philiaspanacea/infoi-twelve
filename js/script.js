@@ -41,13 +41,12 @@ negbtn.addEventListener("click", ()=>{
     if (counterState > 0){
         counterState--;
     }
-    save();
     display();
 })
 
 resbtn.addEventListener("click", ()=>{
     counterState = 0;
-    save();
     display();
 })
 
+display();
