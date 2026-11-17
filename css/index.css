@@ -11,16 +11,22 @@
     align-items: center;
 }
 
+#text {
+    display: flex;
+    gap: 8px;
+}
+
 #counter {
     border: 2px black solid;
-    width: 100px;
+    width: 150px;
     height: 20px;
+    padding: 5px;
 }
 
 button {
     border: 1px black solid;
     background-color: white;
-    width: 45px;
+    width: 50px;
 }
 
 button:hover
